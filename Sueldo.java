@@ -1,10 +1,11 @@
+import java.util.Scanner;
 public class Sueldo {
 private Scanner scanner; 
 private int[] sueldos; 
 //constructor 
-public sueldo(){
-    scanner = new Scanner(Sysrem.in);
-    sueldos = new int[S];
+public Sueldo(){
+    scanner = new Scanner(System.in);
+    sueldos = new int[5];
 }
 private void capturar(){
     for (int i = 0; i < 5; i++){

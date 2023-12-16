@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Persona {
  private Scanner scanner; 
  private String nombre; 
@@ -7,7 +8,7 @@ public class Persona {
     scanner = new Scanner(System.in); 
     System.out.print("Ingrese nombre");
     nombre = scanner.nextLine();
-    System.outprint( "Digite edad"); 
+    System.out.print( "Digite edad"); 
     edad = scanner.nextInt(); 
 
  }

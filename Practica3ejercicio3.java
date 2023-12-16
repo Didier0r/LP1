@@ -5,7 +5,7 @@ public static void main(String[] args) {
     int i = 1; 
     //bucle 
     while ( i < 11) {
-        System.outprintln( "Valor: " + i ); 
+        System.out.println( "Valor: " + i ); 
         i++;
     } 
 
