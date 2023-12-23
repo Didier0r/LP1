@@ -11,7 +11,7 @@ public class Formulario5 extends JFrame implements ActionListener{
         setLayout(null);
         label1=new JLabel("Usuario:");
         label1.setBounds(10,10,100,30);
-        add(label1);
+        add(label1);    
         textfield1=new JTextField();
         textfield1.setBounds(120,10,150,20);
         add(textfield1);
